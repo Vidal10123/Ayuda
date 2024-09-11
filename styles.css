@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    color: #34495e;
+}
+
+.emergency-list {
+    margin: 20px 0;
+}
+
+.emergency-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.emergency-btn:hover {
+    background-color: #2980b9;
+}
+
+.info {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.info h2 {
+    color: #e74c3c;
+}
+
+.info p {
+    font-size: 16px;
+    color: #2c3e50;
+}
+/* styles.css */
+
+/* Otros estilos anteriores... */
+
+/* Botón para llamar al 112 (más grande) */
+.emergency-call {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    margin-top: 20px;
+    border-radius: 10px; /* Bordes más redondeados */
+    cursor: pointer;
+    font-size: 18px; /* Aumenta el tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra para resaltarlo */
+    transition: background-color 0.3s ease;
+}
+
+.emergency-call:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeros Auxilios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guía de Primeros Auxilios</h1>
+        <p>Selecciona una emergencia para obtener información:</p>
+        <div class="emergency-list">
+            <button class="emergency-btn" onclick="showInfo('cortada')">Cortada</button>
+            <button class="emergency-btn" onclick="showInfo('quemadura')">Quemadura</button>
+            <button class="emergency-btn" onclick="showInfo('fractura')">Fractura</button>
+            <button class="emergency-btn" onclick="showInfo('ahogo')">Ahogo</button>
+        </div>
+
+        <div id="info" class="info">
+            <h2>Información de Primeros Auxilios</h2>
+            <p>Selecciona una emergencia para ver la información.</p>
+        </div>
+
+        <!-- Botón para llamar al 112 -->
+        <button id="llamar112" class="emergency-call" onclick="confirmCall()" style="display: none;">Llamar al 112</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
